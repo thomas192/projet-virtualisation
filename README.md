@@ -55,7 +55,7 @@ Il se trouve également dans la machine virtuelle de Noé dans le répertoire ``
 
 Pour exécuter ces scripts, il faut exécuter les commandes suivantes :</br>
 - ```chmod u+x sature.sh``` / ```chmod u+x taille.sh``` pour donner les droits au user (à faire une seule fois)
-- ```./sature.sh``` ou ```./taille.sh``` pour lancer le script.
+- ```./sature.sh``` ou ```./taille.sh``` pour lancer le script souhaité.
 C'est tout !
 
 Les log in sont les prénoms respectifs des deux étudiants (Noé & Thomas) et les mots de passe sont ensibs.
