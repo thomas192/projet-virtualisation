@@ -45,3 +45,18 @@ Chaque conteneur affiche des logs à toutes les étapes de la chaîne de command
 
 
 Une version du projet qui fonctionne dans un seul et même docker-compose est jointe (```command_chain_local```). Il s'utilise de la même manière.
+
+## Supplément
+
+Il se trouve également dans la machine virtuelle de Noé dans le répertoire ```/home/noe/Documents``` les deux programmes bash permettant de réaliser la voie de l'espace. On y trouve :
+
+- Un script taille.sh qui permet de calculer la taille théorique, réelle et de déterminer le nombre de blocs nécessaires pour le fichier qui sera créé.
+- Un script sature.sh qui permet de créer un dossier ```sature``` dans le répertoire courant et dans lequel on va créer de petits fichiers jusqu'à ce qu'il n'y ait plus d'inodes disponibles tout en gardant de la mémoire niveau blocs.
+Pour exécuter ces scripts, il faut exécuter les commandes suivantes :
+- ```chmod u+x sature.sh``` / ```chmod u+x taille.sh``` pour donner les droits au user (à faire une seule fois)
+- ```./sature.sh``` ou ```./taille.sh``` pour lancer le script.
+C'est tout !
+
+Les log in sont les prénoms respectifs des deux étudiants (Noé & Thomas) et les mots de passe sont ensibs.
+
+<strong> NOTE </strong> : Il se peut qu'il y ait une inversion des minuscules et des majuscules sur la machine virtuelle de Noé. Son origine demeure inconnue et fut la cause de bien des tourments.
