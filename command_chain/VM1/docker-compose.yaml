@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  command_post:
+    build: ./command_post
+    hostname: command_post
+  
+  radio_op1:
+    build: ./radio_op1
+    hostname: radio_op1
+    ports:
+      - "4444:4444"

@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  command_post:
+    build: ./command_post
+    hostname: command_post
+  
+  radio_op1:
+    build: ./radio_op1
+    hostname: radio_op1
+  
+  radio_op2:
+    build: ./radio_op2
+    hostname: radio_op2
+  
+  officer:
+    build: ./officer
+    hostname: officier

@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  radio_op2:
+    build: ./radio_op2
+    hostname: radio_op2
+    ports:
+      - "4444:4444"
+  
+  officer:
+    build: ./officer
+    hostname: officier
