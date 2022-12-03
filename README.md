@@ -50,8 +50,8 @@ Une version du projet qui fonctionne dans un seul et même docker-compose est jo
 
 Il se trouve également dans la machine virtuelle de Noé dans le répertoire ```/home/noe/Documents``` les deux programmes bash permettant de réaliser la voie de l'espace. On y trouve :
 
-- Un script taille.sh qui permet de calculer la taille théorique, réelle et de déterminer le nombre de blocs nécessaires pour le fichier qui sera créé.
-- Un script sature.sh qui permet de créer un dossier ```sature``` dans le répertoire courant et dans lequel on va créer de petits fichiers jusqu'à ce qu'il n'y ait plus d'inodes disponibles tout en gardant de la mémoire niveau blocs.</br>
+- Un script ```taille.sh``` qui permet de calculer la taille théorique, réelle et de déterminer le nombre de blocs nécessaires pour le fichier qui sera créé.
+- Un script ```sature.sh``` qui permet de créer un dossier ```sature``` dans le répertoire courant et dans lequel on va créer de petits fichiers jusqu'à ce qu'il n'y ait plus d'inodes disponibles tout en gardant de la mémoire niveau blocs.</br>
 
 Pour exécuter ces scripts, il faut exécuter les commandes suivantes :</br>
 - ```chmod u+x sature.sh``` / ```chmod u+x taille.sh``` pour donner les droits au user (à faire une seule fois)
