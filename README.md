@@ -22,7 +22,7 @@ Tuer le processus parent est supposé tuer les zombies (enfants) par la même oc
 ## Utilisation
 
 
-Vis-à-vis de Proxmox, la VM2 (receveur) correspond à ```thomas```, et la VM1 (envoyeur) à ```noe```.  L'adresse IP de la VM2 se spécifie dans le fichier ```relay_to_radio_op2.py``` (```DEST_HOST=<IP>```) situé dans ```VM1/radio_op1```. Cela est déjà fait. Les adresses IP ne devraient pas changer. Tous les mots de passe sont "ensibs".
+Vis-à-vis de Proxmox, la VM2 (receveur) correspond à ```thomas```, et la VM1 (envoyeur) à ```noe```. Tous les mots de passe sont "ensibs". L'adresse IP de la VM2 se spécifie dans le fichier ```relay_to_radio_op2.py``` (```DEST_HOST=<IP>```) situé dans ```VM1/radio_op1```. Cela est déjà fait. Les adresses IP ne devraient pas changer.
 
 
 Dans l'ordre, lancer sur la VM2 les conteneurs:
