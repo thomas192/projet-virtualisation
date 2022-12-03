@@ -59,6 +59,8 @@ Pour exécuter ces scripts, il faut exécuter les commandes suivantes :</br>
 
 C'est tout !
 
-Les log in sont les prénoms respectifs des deux étudiants (Noé & Thomas) et les mots de passe sont ensibs.
+Ces derniers n'ont pas été implémenté dans le projet après concertation et avoir mutuellement décidé qu'il serait plus intéressant de placer les processus zombies, quand bien même l'un où l'autre n'aurait pas changé grand chose quant à la finalité du projet.
+
+Concernant les log in : ce sont les prénoms respectifs des deux étudiants (Noé & Thomas) et les mots de passe sont ensibs.
 
 <strong> NOTE </strong> : Il se peut qu'il y ait une inversion des minuscules et des majuscules sur la machine virtuelle de Noé. Son origine demeure inconnue et fut la cause de bien des tourments.
