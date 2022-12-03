@@ -1,3 +1,5 @@
+// Author: Thomas Saudemont
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <signal.h>
