@@ -22,7 +22,7 @@ Tuer le processus parent est supposé tuer les zombies (enfants) par la même oc
 ## Utilisation
 
 
-Vis-à-vis de Proxmox, la VM2 (receveur) correspond à ```thomas```, et la VM1 (envoyeur) à ```noe```. Tous les mots de passe sont "ensibs". L'adresse IP de la VM2 se spécifie dans le fichier ```relay_to_radio_op2.py``` (```DEST_HOST=<IP>```) situé dans ```VM1/radio_op1```. Cela est déjà fait. Les adresses IP ne devraient pas changer.
+Vis-à-vis de Proxmox, la VM2 (receveur) correspond à ```thomas```, et la VM1 (envoyeur) à ```noe```. Tous les mots de passe sont "ensibs". L'adresse IP de la VM2 se spécifie dans le fichier ```relay_to_radio_op2.py``` (```DEST_HOST=<IP>```) situé dans ```~/Desktop/VM1/radio_op1```. Cela est déjà fait. Les adresses IP ne devraient pas changer.
 
 
 Dans l'ordre, lancer sur la VM2 les conteneurs:
@@ -55,8 +55,7 @@ Il se trouve également dans la machine virtuelle de Noé dans le répertoire ``
 
 Pour exécuter ces scripts, il faut exécuter les commandes suivantes :</br>
 - ```chmod u+x sature.sh``` / ```chmod u+x taille.sh``` pour donner les droits au user (à faire une seule fois)
-- ```./sature.sh``` ou ```./taille.sh``` pour lancer le script souhaité.
-
+- ```./sature.sh``` ou ```./taille.sh``` pour lancer le script.
 C'est tout !
 
 Les log in sont les prénoms respectifs des deux étudiants (Noé & Thomas) et les mots de passe sont ensibs.
