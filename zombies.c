@@ -30,7 +30,7 @@ int main() {
 		}
 	}
 	
-	// Kill all the zombies we spawned (happends after we pressed Ctrl + C
+	// Kill all the zombies we spawned (happens after we pressed Ctrl + C
 	for (int i = 0; i < SIZE; i++) {
 		if (processes[i] != 0) {
 			printf("killed zombie (%d) \n", processes[i]);
